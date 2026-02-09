@@ -4,6 +4,12 @@ Convert [Gazebo SDF](http://sdformat.org/) robot models to [USD](https://openusd
 
 There are thousands of robot models in SDF format from the Gazebo ecosystem, but no easy way to use them in Isaac Sim. This tool bridges that gap with a simple command-line interface.
 
+## 3D Preview
+
+Example conversion output — Mini Talon V-Tail fixed-wing aircraft (Gazebo SDF → USD):
+
+![Mini Talon V-Tail 3D Model](media/mini_talon_vtail.stl)
+
 ## Features
 
 - **Full SDF parsing** — models, links, joints, visuals, collisions, inertials
