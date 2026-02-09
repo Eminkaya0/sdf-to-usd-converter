@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "sdf-to-usd-converter"
+version = "0.1.0"
+description = "Convert Gazebo SDF robot models to USD format for NVIDIA Isaac Sim"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Emin"}
+]
+keywords = ["sdf", "usd", "gazebo", "isaac-sim", "robotics", "simulation", "openusd"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+[project.scripts]
+sdf2usd = "sdf_to_usd.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/emin/sdf-to-usd-converter"
+Repository = "https://github.com/emin/sdf-to-usd-converter"
+Issues = "https://github.com/emin/sdf-to-usd-converter/issues"
+
+[tool.setuptools.packages.find]
+include = ["sdf_to_usd*"]

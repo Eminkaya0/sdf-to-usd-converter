@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.usd
+*.usda
+*.usdc
+*.usdz
+*.glb
+*.gltf
+examples/output/
+.venv/
+.env
