@@ -25,7 +25,7 @@ There are thousands of robot models in SDF format from the Gazebo ecosystem, but
 
 ```bash
 # Clone the repository
-git clone https://github.com/emin/sdf-to-usd-converter.git
+git clone https://github.com/Eminkaya0/sdf-to-usd-converter.git
 cd sdf-to-usd-converter
 
 # Install with Isaac Sim's Python

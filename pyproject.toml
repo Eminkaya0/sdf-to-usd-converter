@@ -28,9 +28,9 @@ classifiers = [
 sdf2usd = "sdf_to_usd.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/emin/sdf-to-usd-converter"
-Repository = "https://github.com/emin/sdf-to-usd-converter"
-Issues = "https://github.com/emin/sdf-to-usd-converter/issues"
+Homepage = "https://github.com/Eminkaya0/sdf-to-usd-converter"
+Repository = "https://github.com/Eminkaya0/sdf-to-usd-converter"
+Issues = "https://github.com/Eminkaya0/sdf-to-usd-converter/issues"
 
 [tool.setuptools.packages.find]
 include = ["sdf_to_usd*"]
