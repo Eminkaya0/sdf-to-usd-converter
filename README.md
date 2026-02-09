@@ -8,7 +8,9 @@ There are thousands of robot models in SDF format from the Gazebo ecosystem, but
 
 Example conversion output — Mini Talon V-Tail fixed-wing aircraft (Gazebo SDF → USD):
 
-![Mini Talon V-Tail 3D Model](media/mini_talon_vtail.stl)
+<p align="center">
+  <img src="media/mini_talon_vtail_preview.png" alt="Mini Talon V-Tail 3D Model" width="700">
+</p>
 
 ## Features
 
